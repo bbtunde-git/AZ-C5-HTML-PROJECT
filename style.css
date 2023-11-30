@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccc;
+    font-family: 'Poppins', sans-serif;
+}
+.btn {
+    color: #A2678A;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #A2678A;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-flex {
+    background-color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.nav-flex a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* Hero Styling */
+
+.hero-video {
+    position: relative;
+}
+.hero-video video {
+    width: 100%;
+}
+.video-text {
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 20rem;
+    left: 5rem;
+    color: #A2678A;
+}
+.video-text button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* Skill Section Styling */
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    margin-top: -6px;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item {
+    text-align: center;
+}
+.flex-item .img {
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+.flex-item-p {
+    padding: 2rem;
+}
+
+/* Project Styling */
+
+.project-container {
+    background-color: #f8f2f2;
+}
+.project-intro {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 7rem;
+    text-align: center;
+}
+.project-intro a {
+    list-style: none;
+    text-decoration: none;
+}
+.project-card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;    
+    padding-bottom: 1.5rem;
+}
+.project-title {
+    margin-bottom: 1.3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+}
+.project-p {
+    margin-bottom: 0.5rem;
+}
+.project-card img {
+    width: 90%;
+    height: 10rem;
+    margin-top: 1rem;
+}
+.project-card-item {
+    background-color: white;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 0.5rem;
+    padding: 2rem 0.1rem;
+}
+
+/* Footer Styling */
+
+.footer-content {
+    height: 6rem;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+.footer-content ul li {
+    list-style: none;
+}
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.footer-text {
+    color: #b3b1b1;
+    padding-bottom: 0.5rem;
+}
