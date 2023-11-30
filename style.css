@@ -10,11 +10,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .btn {
-    color: #A2678A;
+    color: #4D3C77;
     cursor: pointer;
 }
 .btn:hover {
-    background-color: #A2678A;
+    background-color: #4D3C77;
     color: white;
 }
 .container {
@@ -57,7 +57,7 @@ body {
     font-size: 1.5rem;
     bottom: 20rem;
     left: 5rem;
-    color: #A2678A;
+    color: #4D3C77;
 }
 .video-text button {
     margin-top: 1rem;
