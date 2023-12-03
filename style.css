@@ -158,6 +158,18 @@ body {
     padding-bottom: 0.5rem;
 }
 
+/* About Styling */
+
+.about-container {
+    background-color: #f3eded;
+    margin-top: -7px;
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+}
+.about-img img {
+    border-radius: 50%;
+}
 /* Contact Page Styling */
 
 .contact-content {
@@ -196,4 +208,5 @@ body {
     border: none;
     padding: 15px 20px;
     margin: 20px 0;
+    text-transform: uppercase;
 }
