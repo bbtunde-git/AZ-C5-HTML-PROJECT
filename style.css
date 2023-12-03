@@ -157,3 +157,43 @@ body {
     color: #b3b1b1;
     padding-bottom: 0.5rem;
 }
+
+/* Contact Page Styling */
+
+.contact-content {
+    background-color: #f3eded;
+    margin-top: -6px;
+    padding-bottom: 20px;
+}
+.contact-text {
+    text-align: center;
+    padding: 15px 0 25px 0;
+}
+.contact-text span {
+    color: rgb(49, 146, 226);
+    font-weight: 600;
+}
+.contact-input {
+    width: 45%;
+    padding: 20px;
+    margin: 20px 0 30px 20px;
+}
+.contact-message {
+    margin-left: 20px;
+    padding: 20px;
+}
+.contact-form {
+    background-color: white;
+    width: 70%;
+    margin: 20px auto;
+}
+.contact-btn {
+    text-align: center;
+}
+.contact-form .btn {
+    background-color: rgb(16, 100, 168);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px 0;
+}
