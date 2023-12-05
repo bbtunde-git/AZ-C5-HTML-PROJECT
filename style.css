@@ -158,6 +158,8 @@ body {
     padding-bottom: 0.5rem;
 }
 
+
+
 /* About Styling */
 
 .about-container {
@@ -167,9 +169,42 @@ body {
     gap: 2rem;
     padding: 3rem;
 }
+.about-h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0 2rem 0;
+}
 .about-img img {
     border-radius: 50%;
 }
+.about-text {
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+.about-text h2 {
+    margin-bottom: 3rem;
+}
+.about-btn a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #2874A6;
+
+}
+.about-btn {
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: uppercase;
+}
+.about-skill h3, {
+    margin-bottom: 2rem;
+}
+.about-container ul li {
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+}
+
+
+
 /* Contact Page Styling */
 
 .contact-content {
